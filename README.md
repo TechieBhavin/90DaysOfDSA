@@ -1,5 +1,5 @@
 # 90DaysOfDSA
 
-DSA in 90 Days - Daily Progress
+DSA in 90 Days with Java - Daily Progress
 
-This repository documents my journey through the "90 Days of Data Structures and Algorithms" roadmap. Starting from October 5, 2024, I will be following a structured plan to strengthen my problem-solving skills in DSA. Each day, I'll update my progress, share code implementations, notes, and insights.
+This repository documents my journey through the "90 Days of Data Structures and Algorithms" roadmap, specifically focusing on Java implementations. Starting from October 2024, I will follow a structured plan to enhance my problem-solving skills in DSA using Java. Each day, I’ll update my progress, share Java code implementations, notes, and insights.
