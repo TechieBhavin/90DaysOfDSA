@@ -1,0 +1,26 @@
+Day 1 & 2: Time and Space Complexity
+
+Overview
+In the first two days of the DSA preparation, I focused on understanding one of the most important aspects of writing efficient code—Time and Space Complexity. These concepts help analyze the performance of algorithms in terms of runtime and memory usage as the input size increases.
+
+Key Concepts Learned
+Time Complexity:
+Time complexity is a way to measure the amount of time an algorithm takes to complete as a function of the input size.
+It is expressed using Big-O Notation which describes the upper bound of the runtime in the worst-case scenario.
+
+Common Time Complexities:
+
+O(1): Constant time.
+O(n): Linear time.
+O(log n): Logarithmic time.
+O(n^2): Quadratic time.
+Space Complexity:
+Space complexity measures the amount of memory an algorithm uses as the input size increases.
+
+It also uses Big-O Notation to describe the worst-case memory usage.
+
+Common Space Complexities:
+
+O(1): Constant space.
+O(n): Linear space.
+
