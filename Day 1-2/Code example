@@ -1,0 +1,45 @@
+1. O(n) Time Complexity Example
+In this example, the time complexity is O(n) because we iterate through all the elements of the array.
+
+public class TimeComplexityExample {
+    public static void printElements(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
+        }
+    }
+
+    public static void main(String[] args) {
+        int[] numbers = {1, 2, 3, 4, 5};
+        printElements(numbers);  // O(n) Time Complexity
+    }
+}
+
+2. O(1) Time Complexity Example
+In this case, the time complexity is O(1) because the operation is performed in constant time, regardless of the input size.
+
+public class ConstantTimeExample {
+    public static void main(String[] args) {
+        int n = 100;
+        System.out.println("This operation takes constant time, O(1).");
+    }
+}
+
+3. O(n) Space Complexity Example
+Here, the space complexity is O(n) as the amount of memory required grows linearly with the size of the input array.
+
+public class LinearSpaceComplexity {
+    public static int[] createArray(int n) {
+        return new int[n];  // O(n) space complexity
+    }
+
+    public static void main(String[] args) {
+        int[] newArray = createArray(5);
+        System.out.println("This algorithm takes linear space, O(n).");
+    }
+}
+
+Key Takeaways :
+
+Time complexity allows us to evaluate how the runtime of an algorithm scales as input size increases.
+Space complexity helps analyze how much memory is consumed during the execution of the algorithm.
+Understanding these two concepts is critical for writing efficient code that can handle large datasets within practical limits of time and memory.
