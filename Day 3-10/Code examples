@@ -1,1 +1,80 @@
+the coding problem which i have learnt today
 
+problem statement : Print Name N times using Recursion
+solution : 
+class printnamentimeusingrecursion {
+    
+    static void func(int i, int n){
+        
+            // Base Condition.
+            if(i>n) return;
+            System.out.println("Bhavin");
+
+            // Function call to print till i increments.
+            func(i+1,n);
+
+    }
+    public static void main(String[] args) {
+
+       // Here, let’s take the value of n to be 4.
+       int n = 4;
+       func(1,n);
+    }
+}
+
+problem statement : Print 1 to N using Recursion
+solution (i) :
+class Solution
+{
+ int i=0;   
+  public void printNos(int N)
+    {
+        //Your code here
+        i++;
+        System.out.print(i+" ");
+        if(i==N)return ;
+        printNos(N);
+        
+        
+    }
+}
+solution (ii) :
+class Recursion {
+    
+    static void func(int i, int n){
+        
+            // Base Condition.
+            if(i>n) return;
+            System.out.println(i);
+
+            // Function call to print i till i increments to n.
+            func(i+1,n);
+
+    }
+    public static void main(String[] args) {
+
+       // Here, let’s take the value of n to be 4.
+       int n = 4;
+       func(1,n);
+    }
+}
+solution (iii) :
+class Recursion {
+    
+    static void func(int i, int n){
+        
+            // Base Condition.
+            if(i<1) return;
+            
+            // Function call to print(n-1) integers.
+            func(i-1,n);
+            System.out.println(i);
+
+    }
+    public static void main(String[] args) {
+
+       // Here, let’s take the value of n to be 4.
+       int n = 4;
+       func(n,n);
+    }
+}  
