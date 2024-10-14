@@ -98,3 +98,17 @@ class Recursion {
        func(n,n);
     }
 }  
+the coding problem which i have learnt today
+
+problem statement :  Given an instance of any problem P and data D corresponding to the instance, all the constraints that are to be satisfied for solving the problem as C. The backtracking algorithm will then be:
+
+algorithm : [ the B.T. algorithm will be like this ]
+
+    step 1 : The algorithm begins to build up a solution, starting with an empty solution set S. S = {}
+    step 2 : All possible moves are added to S one by one. Firstly, we add to S the first move that is left. This now creates a new sub-tree s in the state space tree.
+    step 3 : Check if S+s is valid by seeing if it satisfies each of the constraints defined in C.
+        - If S+s is valid, then the sub-tree s is “eligible” to add more “children”.
+        - Else, the entire sub-tree s is useless, so go back to step 1 using argument S.
+    step 4 : In case of “eligibility” of the newly formed sub-tree s, go back to step 1 using argument S+s.
+    step 5 : If S+s returns that it is a solution for the entire data D. Return the result and terminate the algorithm.
+    step 6 : If not, then return that there doesn’t exist any possible solution for the current s and hence discard it.
