@@ -112,3 +112,7 @@ algorithm : [ the B.T. algorithm will be like this ]
     step 4 : In case of “eligibility” of the newly formed sub-tree s, go back to step 1 using argument S+s.
     step 5 : If S+s returns that it is a solution for the entire data D. Return the result and terminate the algorithm.
     step 6 : If not, then return that there doesn’t exist any possible solution for the current s and hence discard it.
+
+problem statement : Consider a real life scenario. We have three boxes and we are told that only one of them has a gold coin in it and we do not know exactly which box has it. So, in order to identify which box has the coin, we will have no other option than opening all the boxes one by one.
+
+solution : The first box is checked first. If it does not contain the coin, we close it and check the second box and so on until we find the coin. This is nothing but utilisation of backtracking algorithm in real life. It is the process of solving all sub-problems one by one to reach the best possible solution for any given problem.
